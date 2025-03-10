@@ -44,6 +44,7 @@ Vote share percentage and trends in party performance over multiple elections.
 Interactive visuals: bar charts, heatmaps, and line graphs to analyze political shifts.
 
 
+
 🛠 Technical Implementation
 
 🔹 SQL Data Processing & Queries
@@ -67,6 +68,7 @@ Seat distribution by state and alliance (total NDA, I.N.D.I.A, and Others seats)
 Top 10 candidates with the highest EVM votes.
 Runner-up analysis for each constituency.
 
+
 🔹 Power BI Data Modeling & Visualization
 
 ✔ Data Preprocessing & Integration
@@ -88,6 +90,7 @@ Used aggregations and pre-filtered tables to improve query execution within Powe
 Efficiently handled large datasets with over 1 million rows of election data.
 
 
+
 📂 Repository Contents
 
 📌 India_Elections_Analysis.pbix – Power BI Dashboard File
@@ -101,6 +104,7 @@ Efficiently handled large datasets with over 1 million rows of election data.
 📌 Images/ – Screenshots of dashboards
 
 
+
 📊 How to Use
 
 ✅ Step 1: Run the SQL queries in MySQL or SQL Server to generate clean election data.
@@ -109,9 +113,12 @@ Efficiently handled large datasets with over 1 million rows of election data.
 
 ✅ Step 3: Explore the interactive dashboards to analyze election trends and insights.
 
+
+
 📢 Conclusion
 
 This project demonstrates advanced SQL data processing, data modeling, and Power BI visualization techniques to analyze the India General Elections 2024. It provides valuable insights into party performance, voter behavior, and election trends.
+
 
 📌 Key Takeaways:
 
