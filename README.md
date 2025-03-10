@@ -1,8 +1,11 @@
 🇮🇳 India Elections Results Analysis | Power BI & SQL
+
 📌 Overview
+
 This project provides an interactive and data-driven analysis of the India General Elections 2024, using SQL for data extraction & transformation and Power BI for visualization. The dashboards offer real-time insights into party performance, voter trends, seat distribution, and election results to support data-driven decision-making.
 
 🚀 Key Achievements
+
 ✔ Built an interactive Power BI dashboard, improving data visibility by 70% and enabling faster decision-making.
 ✔ Optimized SQL queries & DAX measures, reducing query execution and report refresh time by 40%.
 ✔ Implemented data preprocessing using SQL & Excel, ensuring data accuracy and consistency before integration into Power BI.
@@ -10,56 +13,57 @@ This project provides an interactive and data-driven analysis of the India Gener
 ✔ Provided strategic insights into voter turnout, seat share, and constituency-level results for political analysis.
 
 🗳️ Key Insights & Dashboards
-🔹 Landing Page
 
+🔹 Landing Page
 Provides an overview of India General Elections 2024 Analysis.
 Displays key metrics, including total seats contested, voter turnout, and winning party trends.
-🔹 State-Wise Seat Distribution
 
+🔹 State-Wise Seat Distribution
 Breakdown of total seats available vs. seats won by each party in every state.
 Interactive filters to drill down into individual states & constituencies.
 Comparative analysis of state-wise party performance over multiple elections.
-🔹 Top Performing Candidates
 
+🔹 Top Performing Candidates
 Displays candidates with the highest votes & biggest winning margins.
 EVM vs Postal votes analysis for transparency.
 Identification of most competitive constituencies based on vote margins.
-🔹 Party-Wise Performance & Alliances
 
+🔹 Party-Wise Performance & Alliances
 Breakdown of seats won by major alliances (NDA, I.N.D.I.A, Others).
 Vote share percentage and trends in party performance over multiple elections.
 Interactive visuals: bar charts, heatmaps, and line graphs to analyze political shifts.
+
 🛠 Technical Implementation
 🔹 SQL Data Processing & Queries
 ✔ Data Extraction & Transformation
-
 Used INNER JOINs, LEFT JOINs, Window Functions, CTEs, and Aggregations (SUM, COUNT, RANK, PARTITION BY) to process election data.
 Created a Party Alliance classification (NDA, I.N.D.I.A, Others) to group seat counts.
 Applied CASE statements to categorize and label election results for easy analysis.
-✔ Query Optimization
 
+✔ Query Optimization
 Indexed key tables to improve query performance.
 Used subqueries and CTEs to break down complex queries for better readability.
 Optimized query execution time by 40% through efficient joins and filtering techniques.
-✔ Advanced SQL Analysis
 
+✔ Advanced SQL Analysis
 Winning candidate's details (name, votes, party, victory margin).
 Seat distribution by state and alliance (total NDA, I.N.D.I.A, and Others seats).
 Top 10 candidates with the highest EVM votes.
 Runner-up analysis for each constituency.
-🔹 Power BI Data Modeling & Visualization
-✔ Data Preprocessing & Integration
 
+🔹 Power BI Data Modeling & Visualization
+
+✔ Data Preprocessing & Integration
 Designed a structured ERD (Entity Relationship Diagram) for data normalization and performance enhancement.
 Integrated multiple datasets (state-wise results, party-wise performance, voter turnout) to create an optimized Power BI model.
 Applied DAX measures for real-time calculations and analysis.
-✔ Interactive Visuals & Features
 
+✔ Interactive Visuals & Features
 Drill-through analysis: Click on a state to view its constituency-level breakdown.
 Dynamic slicers & filters: Filter results by year, state, party, and candidate.
 Custom KPIs & measures: Created YTD and QTD calculations for comparative analysis.
-✔ Performance Optimization in Power BI
 
+✔ Performance Optimization in Power BI
 Reduced refresh time by 40% using optimized relationships and calculated columns.
 Used aggregations and pre-filtered tables to improve query execution within Power BI.
 Efficiently handled large datasets with over 1 million rows of election data.
